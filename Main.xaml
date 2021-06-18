@@ -115,7 +115,7 @@
                 <OutArgument x:TypeArguments="ui:GenericValue">[TimeTokyo]</OutArgument>
               </ui:GetValue.Value>
             </ui:GetValue>
-            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;l'HEURE à tokyo est:&quot; + TimeTokyo]" />
+            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;l'heure à tokyo est:&quot; + TimeTokyo]" />
             <ui:CloseApplication DisplayName="Close Application 'DIV  rcnt'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="CloseApplication_1">
               <ui:CloseApplication.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="13b0846d-28d0-4918-b684-73bf7dba07b6" InformativeScreenshot="55203f6135161fb3278b410c358af14d" Selector="&lt;webctrl id='rcnt' tag='DIV' /&gt;">
